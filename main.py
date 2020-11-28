@@ -157,7 +157,7 @@ def TheTimeWeather(ToWhos, city=Config.DEFAULT_CITY):
             SendQQMsg(who["qq"], Msg)
     except Exception as e:
         tolog(str(e))
-        SendQQMsg("358694798", str(e))
+        SendQQMsg("*********", str(e))
 
 
 def sendStart():
